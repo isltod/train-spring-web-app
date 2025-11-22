@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository("customerRepository")
+//@Repository("customerRepository")
 public class CustomerRepositoryImpl implements CustomerRepository {
     private List<Customer> customers;
     public CustomerRepositoryImpl() {
